@@ -74,9 +74,12 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='home'>
+        <div className='home' >
+            <div className="home__overlay"></div>
             <div className="container">
-                <h1 className="home__title">Научный проект</h1>
+                <div className="home__title__wrapper">
+                    <h1 className="home__title">Виды изобретений</h1>
+                </div>
                 <div className="home__content">
                     <div className='home__list' >
                         {categories.map((categorie, index) =>
@@ -89,6 +92,7 @@ const Home = () => {
                                     {categorie.names.map((name, i) =>
 
                                         <Link to={name.linkto} key={i} className="home__pod">
+
                                             {name.res}
                                         </Link>
                                     )}

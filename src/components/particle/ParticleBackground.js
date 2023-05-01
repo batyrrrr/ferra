@@ -4,7 +4,11 @@ import particlesConfig from './ParticlesConfig'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
+
+
+
 const ParticleBackground = () => {
+
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
