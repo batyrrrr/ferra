@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/ferra/static/css/main.73dfcbf2.css",
-    "main.js": "/ferra/static/js/main.1c8dacf3.js",
+    "main.css": "/ferra/static/css/main.06376178.css",
+    "main.js": "/ferra/static/js/main.eebb6a9b.js",
+    "static/media/tankpage-bg.jpg": "/ferra/static/media/tankpage-bg.65e0eef635b1476d2b62.jpg",
+    "static/media/homepage-bg.jpg": "/ferra/static/media/homepage-bg.7ba73a7ce967b1b3c5cd.jpg",
+    "static/media/tank3.jpg": "/ferra/static/media/tank3.c1baa6791fc7a3ac1956.jpg",
+    "static/media/tank2.jpg": "/ferra/static/media/tank2.6bc31dc7cb56d5dfc382.jpg",
     "static/media/tnkkk.jpg": "/ferra/static/media/tnkkk.a4d951389b710916bb2d.jpg",
     "index.html": "/ferra/index.html",
-    "main.73dfcbf2.css.map": "/ferra/static/css/main.73dfcbf2.css.map",
-    "main.1c8dacf3.js.map": "/ferra/static/js/main.1c8dacf3.js.map"
+    "main.06376178.css.map": "/ferra/static/css/main.06376178.css.map",
+    "main.eebb6a9b.js.map": "/ferra/static/js/main.eebb6a9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.73dfcbf2.css",
-    "static/js/main.1c8dacf3.js"
+    "static/css/main.06376178.css",
+    "static/js/main.eebb6a9b.js"
   ]
 }
