@@ -1,8 +1,10 @@
 import React from 'react'
-
+import tank from '../../src/img/tnkkk.jpg'
 const Tank = () => {
     return (
-        <div>Tank</div>
+        <div>
+            <img src={tank} alt="" />
+        </div>
     )
 }
 

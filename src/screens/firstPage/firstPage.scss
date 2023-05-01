@@ -1,0 +1,58 @@
+@use '../../scss/' as *;
+
+.fpage {
+    &__all {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__content {
+        color: #fff;
+        font-size: 40px;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        position: relative;
+    }
+
+    &__text {
+
+        text-align: center;
+        width: 100%;
+        letter-spacing: 3px;
+        border-right: 5px solid;
+        white-space: nowrap;
+        overflow: hidden;
+        animation:
+            typing 2s steps(15),
+            cursor .4s step-end infinite alternate;
+        ;
+    }
+
+    &__button {
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+        padding: 4px 8px;
+        background-color: rgb(163, 28, 69);
+        border-radius: 5px;
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}

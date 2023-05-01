@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import './home.scss'
 
 import { IoMdArrowDropdown } from 'react-icons/io'
+import ParticleBackground from '../../components/particle/ParticleBackground'
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,39 +22,33 @@ const Home = () => {
 
     const [categories, setCategories] = useState([
         {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
+            names: [{ res: 'Танк', linkto: '/Tank' }, { res: 'Вертолет', linkto: '/Vert' }, { res: 'Дельтоплан', linkto: '/Delt' }],
             name: 'Транспорт'
         },
         {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
-            name: 'Транспорт'
-        },
-        {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
-            name: 'Транспорт'
-        },
-        {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
-            name: 'Транспорт'
-        },
-        {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
-            name: 'Транспорт'
-        },
-        {
-            names: ['Танк', 'Вертолет', 'Дельтоплан'],
-            name: 'Транспорт'
-        },
-        {
-            names: ['Парашют', 'Прожектор', 'Швейная машинка'],
+            names: [{ res: 'Парашют', linkto: '/Para' }, { res: 'Прожектор', linkto: '/Prozh' }, { res: 'Швейная машинка', linkto: '/Shve' }],
             name: 'Приборы'
-
         },
         {
-            names: ['Паровая пушка', 'Скорострельный арбалет',],
+            names: [{ res: 'Паровая пушка', linkto: '/Paro' }, { res: 'Скорострельный арбалет', linkto: '/Skoro' }],
             name: 'Оружие'
+        },
 
-        }
+
+        // {
+        //     names: ['Танк', 'Вертолет', 'Дельтоплан'],
+        //     name: 'Транспорт'
+        // },
+        // {
+        //     names: ['Парашют', 'Прожектор', 'Швейная машинка'],
+        //     name: 'Приборы'
+
+        // },
+        // {
+        //     names: ['Паровая пушка', 'Скорострельный арбалет',],
+        //     name: 'Оружие'
+
+        // }
     ])
 
     const indexOfArr = (index) => {
@@ -72,7 +68,9 @@ const Home = () => {
             }
         }
         document.addEventListener('mousedown', handler)
-
+        return () => {
+            document.removeEventListener('mousedown', handler)
+        }
     }, [])
 
     return (
@@ -80,19 +78,19 @@ const Home = () => {
             <div className="container">
                 <h1 className="home__title">Научный проект</h1>
                 <div className="home__content">
-                    <div className='home__list' ref={menuref} >
+                    <div className='home__list' >
                         {categories.map((categorie, index) =>
                             // имя категории
                             <div key={index} onClick={() => indexOfArr(index)} className='home__link'>{categorie.name}
                                 {/* иконка */}
                                 <IoMdArrowDropdown className={`home__icon ${podNames === index && open ? 'active' : ''}`} />
                                 {/* покатегория */}
-                                <div className={`home__pods ${podNames === index && open ? 'active' : ''}`}>
+                                <div ref={menuref} className={`home__pods ${podNames === index && open ? 'active' : ''}`}>
                                     {categorie.names.map((name, i) =>
 
-                                        <div key={i} className="home__pod">
-                                            {name}
-                                        </div>
+                                        <Link to={name.linkto} key={i} className="home__pod">
+                                            {name.res}
+                                        </Link>
                                     )}
                                 </div>
 

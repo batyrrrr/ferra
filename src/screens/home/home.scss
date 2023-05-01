@@ -65,14 +65,15 @@
 
     &__pods {
         top: 40px;
-        background-color: gray;
         transform: translateY(40px);
         transition: all .3s ease;
         opacity: 0;
         visibility: hidden;
-        left: 7px;
+        left: 0;
         position: absolute;
         z-index: 9;
+        display: flex;
+        flex-direction: column;
 
         &.active {
             transform: translateX(0);
@@ -93,14 +94,11 @@
     &__pod {
         font-size: 14px;
         padding: 10px 15px;
-        background-color: orange;
+        white-space: nowrap;
 
         &:hover {}
 
-        &:not(:last-child) {
-            border-bottom: 1px dashed #0c0707;
 
-        }
     }
 }
 
