@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/ferra/static/css/main.a63c9620.css",
-    "main.js": "/ferra/static/js/main.aaba782d.js",
+    "main.css": "/ferra/static/css/main.73dfcbf2.css",
+    "main.js": "/ferra/static/js/main.1c8dacf3.js",
+    "static/media/tnkkk.jpg": "/ferra/static/media/tnkkk.a4d951389b710916bb2d.jpg",
     "index.html": "/ferra/index.html",
-    "main.a63c9620.css.map": "/ferra/static/css/main.a63c9620.css.map",
-    "main.aaba782d.js.map": "/ferra/static/js/main.aaba782d.js.map"
+    "main.73dfcbf2.css.map": "/ferra/static/css/main.73dfcbf2.css.map",
+    "main.1c8dacf3.js.map": "/ferra/static/js/main.1c8dacf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a63c9620.css",
-    "static/js/main.aaba782d.js"
+    "static/css/main.73dfcbf2.css",
+    "static/js/main.1c8dacf3.js"
   ]
 }
