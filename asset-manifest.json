@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ferra/static/css/main.a63c9620.css",
-    "main.js": "/ferra/static/js/main.c24257a7.js",
+    "main.js": "/ferra/static/js/main.aaba782d.js",
     "index.html": "/ferra/index.html",
     "main.a63c9620.css.map": "/ferra/static/css/main.a63c9620.css.map",
-    "main.c24257a7.js.map": "/ferra/static/js/main.c24257a7.js.map"
+    "main.aaba782d.js.map": "/ferra/static/js/main.aaba782d.js.map"
   },
   "entrypoints": [
     "static/css/main.a63c9620.css",
-    "static/js/main.c24257a7.js"
+    "static/js/main.aaba782d.js"
   ]
 }
