@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ferra/static/css/main.7297a702.css",
-    "main.js": "/ferra/static/js/main.a606dd96.js",
+    "main.js": "/ferra/static/js/main.6e1872d3.js",
     "static/media/tankpage-bg.jpg": "/ferra/static/media/tankpage-bg.65e0eef635b1476d2b62.jpg",
     "static/media/19.jpg": "/ferra/static/media/19.3790e94800ebd260d338.jpg",
     "static/media/11.jpg": "/ferra/static/media/11.954590ba94120885702f.jpg",
@@ -11,6 +11,7 @@
     "static/media/30.jpg": "/ferra/static/media/30.107e8291b2e29c885283.jpg",
     "static/media/35.jpg": "/ferra/static/media/35.3e90134dc971d3aaa979.jpg",
     "static/media/tank3.jpg": "/ferra/static/media/tank3.c1baa6791fc7a3ac1956.jpg",
+    "static/media/12.jpg": "/ferra/static/media/12.25b22097942259736418.jpg",
     "static/media/23.jpg": "/ferra/static/media/23.97ed44d63415921027a0.jpg",
     "static/media/18.jpg": "/ferra/static/media/18.7e9d36a6d5ea8b7efa2e.jpg",
     "static/media/25.jpg": "/ferra/static/media/25.f9f2ebb1608851203d82.jpg",
@@ -41,10 +42,10 @@
     "static/media/34.jpg": "/ferra/static/media/34.58fec6a6b9ff55fa43ce.jpg",
     "index.html": "/ferra/index.html",
     "main.7297a702.css.map": "/ferra/static/css/main.7297a702.css.map",
-    "main.a606dd96.js.map": "/ferra/static/js/main.a606dd96.js.map"
+    "main.6e1872d3.js.map": "/ferra/static/js/main.6e1872d3.js.map"
   },
   "entrypoints": [
     "static/css/main.7297a702.css",
-    "static/js/main.a606dd96.js"
+    "static/js/main.6e1872d3.js"
   ]
 }
