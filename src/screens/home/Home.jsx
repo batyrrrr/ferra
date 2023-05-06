@@ -22,17 +22,23 @@ const Home = () => {
 
     const [categories, setCategories] = useState([
         {
-            names: [{ res: 'Танк', linkto: '/Tank' }, { res: 'Вертолет', linkto: '/Vert' }, { res: 'Дельтоплан', linkto: '/Delt' }],
+            names: [{ res: 'Танк', linkto: '/Tank' }, { res: 'Вертолет', linkto: '/Vert' }, { res: 'Дельтоплан', linkto: '/Delt' }, { res: 'Велосипед', linkto: '/Velo' }],
             name: 'Транспорт'
         },
         {
-            names: [{ res: 'Парашют', linkto: '/Para' }, { res: 'Прожектор', linkto: '/Prozh' }, { res: 'Швейная машинка', linkto: '/Shve' }],
+            names: [{ res: 'Швейная машинка', linkto: '/Shve' }, { res: 'Радио', linkto: '/Radio' }, { res: 'Рентгеновские лучи', linkto: '/Rentgen' }, { res: 'Телевизор', linkto: '/Tele' },
+            { res: 'Прожектор', linkto: '/Prozh' }],
             name: 'Приборы'
         },
         {
-            names: [{ res: 'Паровая пушка', linkto: '/Paro' }, { res: 'Скорострельный арбалет', linkto: '/Skoro' }],
+            names: [{ res: 'Паровая пушка', linkto: '/Paro' }, { res: 'Арбалет ', linkto: '/Arba' }],
             name: 'Оружие'
         },
+        {
+            names: [{ res: 'Греческий огонь', linkto: '/Grech' }, { res: 'Дамасская сталь ', linkto: '/Damas' }],
+            name: 'Вещества(формулы)'
+        },
+
 
 
         // {
