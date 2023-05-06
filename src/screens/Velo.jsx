@@ -1,6 +1,6 @@
 import React from 'react'
 import './tank/tank.scss'
-import first from '../../src/img/velo/10.jpg'
+import first from '../../src/img/velo/12.jpg'
 import sec from '../../src/img/velo/13.jpg'
 import thi from '../../src/img/velo/14.jpg'
 import fou from '../../src/img/velo/15.jpg'
