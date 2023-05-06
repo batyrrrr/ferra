@@ -15,7 +15,7 @@ const Velo = () => {
             <div className="tank__overlay"></div>
             <div className="container">
                 <h1 className="tank__title ">Транспорт:</h1>
-                <h1 className="tank__firstTitle ">Дельтаплан -</h1>
+                <h1 className="tank__firstTitle ">Велосипед -</h1>
                 <img className='tank__firstImg _img' src={first} alt="" />
                 <div className="tank__firstText _title">
                     Согласно преданию, Леонардо да Винчи совместно со своим учеником Джакомо Капротти выполнил чертеж современного велосипеда. Однако ученые и историки, в большинстве своем, утверждают, что «эскиз велосипеда Леонардо да Винчи» – подделка.
